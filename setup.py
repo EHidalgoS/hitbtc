@@ -2,7 +2,7 @@ from setuptools import setup
 
 VERSION = '1.0.4'
 
-setup(name='hitbtc',
+setup(name='hitbtc_mod',
       version=VERSION,
       description='HitBTC Websocket API Client',
       author='Nils Diefenbach',

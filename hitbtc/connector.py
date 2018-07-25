@@ -134,7 +134,7 @@ class HitBTCConnector(WebSocketConnectorThread):
             log.exception(e)
             log.error("Response's method %s is unknown to the client! %s", method, response)
             return
-        print(request)
+        # print(request)
         if method.startswith('subscribe'):
             if 'symbol' in request['params']:
                 formatted_msg = msg.format(symbol=request['params']['symbol'])
